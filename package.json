@@ -4,7 +4,7 @@
   "description": "dis\tcreate a node.js server that talks to other instances for a distributed web of servers Edit",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "start cmd /k nodemon client.js && nodemon server.js",
     "start": " start cmd /k node client.js && node server.js"
   },
   "repository": {
@@ -26,5 +26,6 @@
   "dependencies": {
     "express": "^4.15.3",
     "socket.io": "^2.0.3"
-  }
+  },
+  "devDependencies": {}
 }
