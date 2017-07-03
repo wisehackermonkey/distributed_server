@@ -1,0 +1,31 @@
+{
+  "name": "node_mesh",
+  "version": "1.0.0",
+  "description": "dis\tcreate a node.js server that talks to other instances for a distributed web of servers Edit",
+  "main": "server.js",
+  "scripts": {
+    "test": "start cmd /k nodemon client.js && nodemon server.js",
+    "start": " start cmd /k node client.js && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisehackermonkey/distributed_server.git"
+  },
+  "keywords": [
+    "distributed",
+    "mesh",
+    "server",
+    "node.js"
+  ],
+  "author": "wisemonkey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisehackermonkey/distributed_server/issues"
+  },
+  "homepage": "https://github.com/wisehackermonkey/distributed_server#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {}
+}
