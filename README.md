@@ -3,3 +3,5 @@
 create a node.js server that talks to other instances for a distributed web of servers Edit
 Add topics
 ```
+#### Note
+project is unfinished
